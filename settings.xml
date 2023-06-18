@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Lava
+	</name>
+	<settings>
+		<variable>shopId</variable>
+		<name>Идентификатор проекта:</name>
+	</settings>
+	<settings>
+		<variable>secret_key</variable>
+		<name>secret_key:</name>
+	</settings>
+	<settings>
+		<variable>secret_key2</variable>
+		<name>secret_key2:</name>
+	</settings>
+	<settings>
+		<variable>hook_url</variable>
+		<name>Url для отправки webhook:</name>
+	</settings>
+	<settings>
+		<variable>merchant_name</variable>
+		<name>MERCHANT_NAME:</name>
+	</settings>
+	<settings>
+		<variable>lava_order_status</variable>
+		<name>Статус заказа после оплаты:</name>
+		<options>
+			<name>новый</name>
+			<value>0</value>
+		</options>
+		<options>
+			<name>принят</name>
+			<value>1</value>
+		</options>
+		<options>
+			<name>выполнен</name>
+			<value>2</value>
+		</options>
+		<options>
+			<name>удален</name>
+			<value>3</value>
+		</options>
+	</settings>
+	<settings>
+		<variable>lava_email</variable>
+		<name>Email для оповещений</name>
+	</settings>
+	<settings>
+		<variable>lava_log</variable>
+		<name>Путь до журнала операций (например, /lava_orders.log)</name>
+	</settings>
+</module>
